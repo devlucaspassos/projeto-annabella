@@ -1,0 +1,90 @@
+@chartset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(imagens/fundo.png);
+    }
+    
+    #cabecalho {
+        background: #000 url(imagens/capa.png) no-repeat center center;
+        width: 900px;
+        height:388px;
+    }
+    .navegacao {
+        width: 900px;
+        height:100px;
+        background: rgb(216, 216, 216);
+
+    }
+    .navegacao > ul {
+        text-align: center;
+        padding: 30px;
+
+    }
+    .navegacao > ul > li {
+        display: inline;
+        padding: 10px;
+    }
+    .navegacao > ul > li > a {
+        text-decoration: none;
+        color: rgb(106, 106, 150);
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .navegacao > ul > li a:hover {
+        background-color: rgb(179, 177, 189) ;
+    }
+    main {
+        width: 900px;
+        background-color: #fff;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.123);
+    }
+    main > article > h2 {
+        padding: 35px 20px 20px 20px;
+        font-size: 1.6em;
+        color: orange;
+    }
+    main > article > p {
+        padding: 20px;
+        text-indent: 20px;
+        line-height: 1.3em;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    footer {
+        width: 900px;
+        height:50px;
+        margin-top: 50px;
+        background-color: rgb(216, 216, 216);
+    }
+    footer > p {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    footer > p a {
+        text-decoration: none; 
+        color: black;
+    }
+    footer > p a:hover {
+        text-decoration: underline;
+    }
+    .imagem {
+        text-align: center;
+        
+    }
+    .bella {
+        max-width: 640px;
+        max-height: 425px;
+        border: lightgray solid 10px;
+    }
+    .contato {
+        font-weight: bold;
+    }
